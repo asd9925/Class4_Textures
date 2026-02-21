@@ -33,7 +33,7 @@ export function addTexturedMesh(){
         emissiveIntensity: 1,
         metalness: 0.1,
         roughness: 0,
-        transmission: 0.5,
+        // transmission: 0.5,
         ior: 2.33,
     })
     const mesh = new THREE.Mesh(geometry, material);
